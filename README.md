@@ -1,3 +1,7 @@
+[![Docker Stars](https://img.shields.io/docker/stars/frolvlad/alpine-bash.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-bash/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/frolvlad/alpine-bash.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-bash/)
+
+
 Bash Docker image
 =================
 
