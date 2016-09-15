@@ -10,9 +10,9 @@ contains [Bash](https://www.gnu.org/software/bash/) (Bourne Again SHell) with
 some useful tools (e.g., complete implementations of grep, sed, awk, bc, head,
 tail, and etc).
 
-Total size of this image is only:
+Download size of this image is only:
 
-[![](https://badge.imagelayers.io/frolvlad/alpine-bash:latest.svg)](https://imagelayers.io/?images=frolvlad/alpine-bash:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/frolvlad/alpine-bash.svg)](http://microbadger.com/images/frolvlad/alpine-bash "Get your own image badge on microbadger.com")
 
 
 Usage Example
