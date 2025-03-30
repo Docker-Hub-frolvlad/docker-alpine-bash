@@ -98,11 +98,6 @@ jobs:
         run: |
           docker buildx imagetools create \
             -t ${{ env.DOCKERHUB_REPO }}:latest \
-            -t ${{ env.DOCKERHUB_REPO }}:glibc-2.41 \
-            -t ${{ env.DOCKERHUB_REPO }}:alpine-3 \
-            -t ${{ env.DOCKERHUB_REPO }}:alpine-3.21 \
-            -t ${{ env.DOCKERHUB_REPO }}:alpine-3_glibc-2.41 \
-            -t ${{ env.DOCKERHUB_REPO }}:alpine-3.21_glibc-2.41 \
             $(printf '${{ env.DOCKERHUB_REPO }}@sha256:%s ' *)
 
       - name: Inspect image
